@@ -10,9 +10,23 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+#datetime-picker {
+  font-size: 24px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
